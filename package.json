@@ -1,7 +1,7 @@
 {
   "name": "makeup-prevent-scroll-keys",
   "description": "Prevents default scroll event when pressing down arrow, page down, spacebar, etc.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "https://github.com/makeup-js/makeup-prevent-scroll-keys.git",
   "author": "Ian McBurnie <ianmcburnie@hotmail.com>",

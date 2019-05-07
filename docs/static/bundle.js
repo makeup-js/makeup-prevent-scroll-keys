@@ -591,7 +591,7 @@ https://github.com/joyent/node/blob/master/lib/module.js
     }
 })();
 
-$_mod.def("/makeup-prevent-scroll-keys$0.0.2/index", function(require, exports, module, __filename, __dirname) { 'use strict';
+$_mod.def("/makeup-prevent-scroll-keys$0.0.3/index", function(require, exports, module, __filename, __dirname) { 'use strict';
 
 function onKeyDown(e) {
   if (e.keyCode >= 32 && e.keyCode <= 36 || e.keyCode === 38 || e.keyCode === 40) {
@@ -613,10 +613,10 @@ module.exports = {
 };
 
 });
-$_mod.def("/makeup-prevent-scroll-keys$0.0.2/docs/index", function(require, exports, module, __filename, __dirname) { "use strict";
+$_mod.def("/makeup-prevent-scroll-keys$0.0.3/docs/index", function(require, exports, module, __filename, __dirname) { "use strict";
 
 /* eslint-disable no-console */
-var scrollKeysPreventer = require('/makeup-prevent-scroll-keys$0.0.2/index'/*'../index.js'*/);
+var scrollKeysPreventer = require('/makeup-prevent-scroll-keys$0.0.3/index'/*'../index.js'*/);
 
 var widgetEl = document.querySelector('.widget');
 scrollKeysPreventer.add(widgetEl);
@@ -625,4 +625,4 @@ window.addEventListener('scroll', function (e) {
 }); // scrollKeysPreventer.remove(widgetEl);
 
 });
-$_mod.run("/makeup-prevent-scroll-keys$0.0.2/docs/index");
+$_mod.run("/makeup-prevent-scroll-keys$0.0.3/docs/index");
