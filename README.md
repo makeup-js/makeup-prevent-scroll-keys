@@ -9,7 +9,7 @@
 
 A vanilla JavaScript port of <a href="https://github.com/ianmcburnie/jquery-prevent-scroll-keys">jquery-prevent-scroll-keys</a>.
 
-This module prevents the default scroll event when pressing down arrow, page down, spacebar, etc. This behaviour is required for ARIA widgets such as menu, tabs and comboboxes. See [eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/) for further information.
+This CommonJS module prevents the default scroll event when pressing down arrow, page down, spacebar, etc. This behaviour is required for ARIA widgets such as menu, tabs and comboboxes. See [eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/) for further information.
 
 ## Experimental
 
@@ -53,27 +53,6 @@ None
 ## Dependencies
 
 None
-
-## Development
-
-* `npm start`
-* `npm test`
-* `npm run lint`
-* `npm run fix`
-* `npm run build`
-* `npm run clean`
-
-The following hooks exist, and do not need to be invoked manually:
-
-* `npm prepublishOnly` cleans, lints, tests and builds on every `npm publish` command
-* `pre-commit` cleans, lints, tests and builds on every `git commit` command
-
-## Test Reports
-
-Each test run will generate the following reports:
-
-* `/reports/coverage` contains Istanbul code coverage report
-* `/reports/html` contains HTML test report
 
 ## CI Build
 

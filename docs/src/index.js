@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 
-const scrollKeysPreventer = require('../index.js');
+const scrollKeysPreventer = require('../../src/index.js');
 const widgetEl = document.querySelector('.widget');
 
 scrollKeysPreventer.add(widgetEl);

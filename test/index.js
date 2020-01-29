@@ -1,5 +1,5 @@
 describe('makeup-prevent-scroll-keys', function() {
-    var scrollKeyPreventer = require('../index.js');
+    var scrollKeyPreventer = require('../src/index.js');
 
     describe('when module is imported', function() {
         it("module should not be undefined", function() {
